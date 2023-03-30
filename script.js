@@ -32,16 +32,14 @@ const incremento = () => {
             imagem.style.opacity = '1'
             imagem.src = 'assets/fryda.png'
         }
-        else if (counter == 7) {
-            imagem.style.opacity = '0'
-        }
+        
     }
     verificadora()
 }
 
 const decremento = () => {
-    if (counter >= 8){
-    counter = 2}
+    if (counter >= 7){
+    counter = 1}
 }
 
 
